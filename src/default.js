@@ -12,7 +12,7 @@ function defaultMenu(){
     showExample1.textContent = `These ${example1.name} are ${example1.description} today ${example1.dateAdded}`
     contentForExample1.appendChild(showExample1)
 
-    console.log(example1)
+     
 }
 
 export default defaultMenu

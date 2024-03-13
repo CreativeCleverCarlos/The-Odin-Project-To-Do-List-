@@ -1,6 +1,28 @@
-
-
-.content{
-    color: green;
+*{
+    margin: 0;
+    box-sizing: border-box;
 }
 
+.content{
+    display: flex;
+}
+
+.heading{
+    width: 100vw;
+    height: 12vh;
+    background-color: aqua;
+}
+
+.side-nav{
+    width: 20vw;
+    min-height: 88vh;
+    height: auto;
+    background: lightblue;
+}
+
+.info-listing{
+    width: 80vw;
+    min-height: 88vh;
+    height: auto;
+    background: lightgray;
+}
