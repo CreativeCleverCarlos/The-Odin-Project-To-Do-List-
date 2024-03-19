@@ -11,12 +11,19 @@ import toDoInput from './todoinput.js';
 //a function that creates a div, and places the cat image into it
 function component(){
 
+    document.querySelector("#add-entry-button").addEventListener("click", () =>{
+       let showform = document.querySelector("#task-entry");
+       showform.style.display = "block"
+    })
+
+
 
     const element = document.createElement('div')
     inputForm();
     defaultMenu();
     putUpNav();
     navWaitingOnClicks();
+    toDoInput;
 
 
     return element
@@ -24,14 +31,6 @@ function component(){
     
 }
 
-document.querySelector("#task-entry-form").addEventListener("submit", function(event){ 
-    event.preventDefault(); 
-    let toDoListing = [];
-   
-        console.log("submit button works");
-    
- 
-})
 
 
 

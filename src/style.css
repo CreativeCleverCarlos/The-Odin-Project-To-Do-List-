@@ -26,3 +26,7 @@
     height: auto;
     background: lightgray;
 }
+
+#task-entry{
+    display: none;
+}
