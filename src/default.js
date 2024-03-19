@@ -10,7 +10,7 @@ function defaultMenu(){
     const contentForExample1 = document.querySelector(".info-listing")
     const showExample1 = document.createElement("p")
     showExample1.textContent = `These ${example1.name} are ${example1.description} today ${example1.dateAdded}`
-    contentForExample1.appendChild(showExample1)
+    
 
      
 }
